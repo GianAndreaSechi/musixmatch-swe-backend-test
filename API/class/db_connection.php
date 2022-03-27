@@ -30,11 +30,5 @@ class DBConnection{
             echo "Error: " . $exception->getMessage();
         }
      }
-     function firstConfiguration(){
-         //check if database is setted
-         //drop it
-         //import sql file
-         //create dummy data (puoi metterli direttamente nell'sql file)
-     }
 }
 ?>
